@@ -1,0 +1,8 @@
+{
+  "name": "Tezign.com",
+  "description": "Enterprise-grade system interface for agent-based execution and institutional knowledge management.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

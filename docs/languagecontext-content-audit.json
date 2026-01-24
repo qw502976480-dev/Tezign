@@ -1,0 +1,647 @@
+{
+  "summary": {
+    "totalKeys": 245,
+    "contentCandidates": 38,
+    "uiStrings": 207,
+    "highRiskCount": 18
+  },
+  "missingKeys": {
+    "en": [],
+    "zh": []
+  },
+  "typeMismatches": [],
+  "items": [
+    {
+      "keyPath": "product_details",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Object with content fields (description, features)"
+      ],
+      "size": 7,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "product_details"
+      },
+      "samplePreview": "Contains dam, market, expert, growth, innovation, social, revenue...",
+      "note": "Large nested object defining core product data. Should be moved to content layer."
+    },
+    {
+      "keyPath": "product_details.dam.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 174,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "dam.description"
+      },
+      "samplePreview": "Transforms fragmented enterprise content into digital assets that AI can continu...",
+      "note": "Long description text."
+    },
+    {
+      "keyPath": "product_details.market.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 208,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "market.description"
+      },
+      "samplePreview": "The Insight agent continuously monitors the entire web, combined with internal h...",
+      "note": "Long description text."
+    },
+    {
+      "keyPath": "product_details.expert.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 194,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "expert.description"
+      },
+      "samplePreview": "The Expert agent acts as the \"super brain\" of the enterprise, learning and under...",
+      "note": "Long description text."
+    },
+    {
+      "keyPath": "product_details.growth.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 159,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "growth.description"
+      },
+      "samplePreview": "The Growth agent focuses on scaled content production and efficiency optimizatio...",
+      "note": "Long description text."
+    },
+    {
+      "keyPath": "product_details.innovation.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 193,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "innovation.description"
+      },
+      "samplePreview": "The Innovation agent connects market insights with R&D processes, significantly ...",
+      "note": "Long description text."
+    },
+    {
+      "keyPath": "product_details.social.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 175,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "social.description"
+      },
+      "samplePreview": "The Social agent unifies management of all social media channels, enabling intel...",
+      "note": "Long description text."
+    },
+    {
+      "keyPath": "product_details.revenue.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 178,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "revenue.description"
+      },
+      "samplePreview": "The Revenue agent provides full-link intelligent support for sales teams from le...",
+      "note": "Long description text."
+    },
+    {
+      "keyPath": "product_details.dam.features",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 4,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/products/productDetails.{lang}.ts",
+        "targetKeyPath": "dam.features"
+      },
+      "samplePreview": "Array of 4 feature objects",
+      "note": "List of features should be in content layer."
+    },
+    {
+      "keyPath": "resources_page.subtitle",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines",
+        "String length >= 120"
+      ],
+      "size": 182,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/resourcesPage.{lang}.ts",
+        "targetKeyPath": "subtitle"
+      },
+      "samplePreview": "Through professional services, joint labs, and research funds,\nTezign continuous...",
+      "note": "Multiline subtitle."
+    },
+    {
+      "keyPath": "updates_page.subtitle",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines"
+      ],
+      "size": 125,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "low",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/updatesPage.{lang}.ts",
+        "targetKeyPath": "subtitle"
+      },
+      "samplePreview": "Product updates, media coverage, and events—\ntracking key developments as Tezign...",
+      "note": "Multiline subtitle."
+    },
+    {
+      "keyPath": "stories_page.subtitle",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines",
+        "String length >= 120"
+      ],
+      "size": 199,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/industriesPage.{lang}.ts",
+        "targetKeyPath": "subtitle"
+      },
+      "samplePreview": "Delving into diverse sectors like Consumer, Tech, and Manufacturing,\nTezign tran...",
+      "note": "Multiline subtitle."
+    },
+    {
+      "keyPath": "auth_modal",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Object with content fields"
+      ],
+      "size": 5,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/components/authModal.{lang}.ts",
+        "targetKeyPath": "auth_modal"
+      },
+      "samplePreview": "Contains signin, signup tabs...",
+      "note": "Complex modal content structure."
+    },
+    {
+      "keyPath": "auth_modal.signup.step0.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines"
+      ],
+      "size": 105,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "low",
+      "suggestedTarget": {
+        "targetFile": "src/content/components/authModal.{lang}.ts",
+        "targetKeyPath": "signup.step0.description"
+      },
+      "samplePreview": "Create an account to access the latest research,\nindustry practices, and GEA evo...",
+      "note": "Multiline description."
+    },
+    {
+      "keyPath": "auth_modal.signup.step3.description",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines"
+      ],
+      "size": 75,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "low",
+      "suggestedTarget": {
+        "targetFile": "src/content/components/authModal.{lang}.ts",
+        "targetKeyPath": "signup.step3.description"
+      },
+      "samplePreview": "Receive high-quality newsletters on\nEnterprise Agent trends. No spam.",
+      "note": "Multiline description."
+    },
+    {
+      "keyPath": "legal_page.categories",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 3,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/legalPage.{lang}.ts",
+        "targetKeyPath": "categories"
+      },
+      "samplePreview": "Array of 3 categories",
+      "note": "List of legal categories."
+    },
+    {
+      "keyPath": "legal_page.documents",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 2,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/legalPage.{lang}.ts",
+        "targetKeyPath": "documents"
+      },
+      "samplePreview": "Array of 2 documents",
+      "note": "List of documents."
+    },
+    {
+      "keyPath": "careers_page.subtitle",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines"
+      ],
+      "size": 95,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "low",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/careersPage.{lang}.ts",
+        "targetKeyPath": "subtitle"
+      },
+      "samplePreview": "We don't care how you perform when you are being watched,\nbut how you treat your...",
+      "note": "Multiline subtitle."
+    },
+    {
+      "keyPath": "careers_page.values_intro",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines",
+        "String length >= 120"
+      ],
+      "size": 339,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/careersPage.{lang}.ts",
+        "targetKeyPath": "values_intro"
+      },
+      "samplePreview": "Values are the consensus of Tezigners.\nThey are not slogans on the wall, but the...",
+      "note": "Long multiline intro text."
+    },
+    {
+      "keyPath": "careers_page.values_list",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 4,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/careersPage.{lang}.ts",
+        "targetKeyPath": "values_list"
+      },
+      "samplePreview": "Array of 4 values",
+      "note": "List of core values."
+    },
+    {
+      "keyPath": "careers_page.roles_desc",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines",
+        "String length >= 120"
+      ],
+      "size": 242,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/careersPage.{lang}.ts",
+        "targetKeyPath": "roles_desc"
+      },
+      "samplePreview": "We continuously recruit for engineering, product, design, research, and business...",
+      "note": "Long multiline description."
+    },
+    {
+      "keyPath": "products_page.subtitle",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines",
+        "String length >= 120"
+      ],
+      "size": 206,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/productsPage.{lang}.ts",
+        "targetKeyPath": "subtitle"
+      },
+      "samplePreview": "Tezign leverages DAM to solidify enterprise content and data foundations,\nand us...",
+      "note": "Multiline subtitle."
+    },
+    {
+      "keyPath": "products_page.recognition.tech.cards",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 5,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/productsPage.{lang}.ts",
+        "targetKeyPath": "recognition.tech.cards"
+      },
+      "samplePreview": "Array of 5 items",
+      "note": "List of recognition items."
+    },
+    {
+      "keyPath": "products_page.recognition.industry.cards",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 4,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/productsPage.{lang}.ts",
+        "targetKeyPath": "recognition.industry.cards"
+      },
+      "samplePreview": "Array of 4 items",
+      "note": "List of industry recognition items."
+    },
+    {
+      "keyPath": "products_page.recognition.public.cards",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 4,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/productsPage.{lang}.ts",
+        "targetKeyPath": "recognition.public.cards"
+      },
+      "samplePreview": "Array of 4 items",
+      "note": "List of public recognition items."
+    },
+    {
+      "keyPath": "home_cta.title",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String contains >= 2 newlines"
+      ],
+      "size": 60,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "low",
+      "suggestedTarget": {
+        "targetFile": "src/content/home/cta.{lang}.ts",
+        "targetKeyPath": "title"
+      },
+      "samplePreview": "Deliver continuous results with AI\nin critical workflows.",
+      "note": "Multiline title."
+    },
+    {
+      "keyPath": "contact_page.hero.subtitle",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "String length >= 120"
+      ],
+      "size": 115,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "low",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/contactPage.{lang}.ts",
+        "targetKeyPath": "hero.subtitle"
+      },
+      "samplePreview": "Join us to explore how Generative Enterprise Agents (GEA) deliver continuous res...",
+      "note": "Subtitle near threshold."
+    },
+    {
+      "keyPath": "contact_page.hero.points",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 3,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/pages/contactPage.{lang}.ts",
+        "targetKeyPath": "hero.points"
+      },
+      "samplePreview": "Array of 3 points",
+      "note": "List of benefit points."
+    },
+    {
+      "keyPath": "nav_ia.overlays",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Object with content fields"
+      ],
+      "size": 10,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/layout/nav.{lang}.ts",
+        "targetKeyPath": "overlays"
+      },
+      "samplePreview": "Contains dam_title, gea_title...",
+      "note": "Navigation overlay titles are effectively content."
+    },
+    {
+      "keyPath": "industry_verticals.cards",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Object with content fields"
+      ],
+      "size": 5,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "medium",
+      "suggestedTarget": {
+        "targetFile": "src/content/home/industryVerticals.{lang}.ts",
+        "targetKeyPath": "cards"
+      },
+      "samplePreview": "Contains consumer, auto, finance...",
+      "note": "Data driving industry cards."
+    },
+    {
+      "keyPath": "news",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Object with content fields"
+      ],
+      "size": 43,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/news/newsData.{lang}.ts",
+        "targetKeyPath": "items"
+      },
+      "samplePreview": "Imported Object (NEWS_TRANSLATIONS)",
+      "note": "Already externalized via import, but structure remains in Context."
+    },
+    {
+      "keyPath": "industry_cases",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 8,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/cases/industryCases.{lang}.ts",
+        "targetKeyPath": "items"
+      },
+      "samplePreview": "Imported Array (INDUSTRY_CASES)",
+      "note": "Already externalized via import, but structure remains in Context."
+    },
+    {
+      "keyPath": "resource_items",
+      "classification": "CONTENT_CANDIDATE",
+      "reason": [
+        "Value is Array"
+      ],
+      "size": 4,
+      "languages": {
+        "en": true,
+        "zh": true
+      },
+      "risk": "high",
+      "suggestedTarget": {
+        "targetFile": "src/content/resources/resourceItems.{lang}.ts",
+        "targetKeyPath": "items"
+      },
+      "samplePreview": "Imported Array (RESOURCE_ITEMS)",
+      "note": "Already externalized via import, but structure remains in Context."
+    }
+  ]
+}

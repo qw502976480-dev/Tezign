@@ -1,0 +1,72 @@
+
+{
+  "summary": {
+    "totalFiles": 100,
+    "duplicateGroups": 6,
+    "integrityScore": "B"
+  },
+  "duplicates": [
+    {
+      "filename": "LanguageContext.tsx",
+      "paths": [
+        "context/LanguageContext.tsx",
+        "src/context/LanguageContext.tsx"
+      ],
+      "canonical": "context/LanguageContext.tsx",
+      "entryUsedPath": "context/LanguageContext.tsx",
+      "action": "Sync content from src/ to context/"
+    },
+    {
+      "filename": "CareersPage.tsx",
+      "paths": [
+        "components/CareersPage.tsx",
+        "src/components/CareersPage.tsx"
+      ],
+      "canonical": "components/CareersPage.tsx",
+      "entryUsedPath": "components/CareersPage.tsx",
+      "action": "Deprecate src/"
+    },
+    {
+      "filename": "LegalPage.tsx",
+      "paths": [
+        "components/LegalPage.tsx",
+        "src/components/LegalPage.tsx"
+      ],
+      "canonical": "components/LegalPage.tsx",
+      "entryUsedPath": "components/LegalPage.tsx",
+      "action": "Deprecate src/"
+    },
+    {
+      "filename": "UpdatesSection.tsx",
+      "paths": [
+        "components/UpdatesSection.tsx",
+        "src/components/UpdatesSection.tsx"
+      ],
+      "canonical": "components/UpdatesSection.tsx",
+      "entryUsedPath": "components/UpdatesSection.tsx",
+      "action": "Deprecate src/"
+    },
+    {
+      "filename": "authModal.en.ts",
+      "paths": [
+        "content/components/authModal.en.ts",
+        "src/content/components/authModal.en.ts"
+      ],
+      "canonical": "content/components/authModal.en.ts",
+      "action": "Generated"
+    },
+    {
+      "filename": "productDetails.en.ts",
+      "paths": [
+        "content/products/productDetails.en.ts",
+        "src/content/products/productDetails.en.ts"
+      ],
+      "canonical": "content/products/productDetails.en.ts",
+      "action": "Generated"
+    }
+  ],
+  "i18n": {
+    "status": "Checked",
+    "notes": "Keys appear consistent across UI_TRANSLATIONS"
+  }
+}
